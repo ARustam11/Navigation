@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body style */
+
+body {
+    background-color: #d1d8e0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-image {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+main a {
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    transition: color 0.3s ease;
+    border: 2px solid #bd3e3e;
+    padding: 10px;
+    border-radius: 15%;
+    background-color: #f1f1f1;
+}
+
+main a:hover {
+    color: #bd3e3e;
+}
+
+main.p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 15px 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Navigation bar */
+
+.main-navigation {
+    background-color: #bd3e3e;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-navigation li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    min-width: 100px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.main-navigation a:hover {
+    color: #3498db;
+}
+
+/* Dropdown Menu */
+
+.dropdown-content li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bd3e3e;
+    width: 110px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Body Section */
+
+.body-section {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+article {
+    width: 50%;
+    background-color: #f1f1f1;
+    margin: auto;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(255, 255, 255, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+article:hover {
+    box-shadow: 0 0 2em #bd3e3e;
+}
+/* Portfolio Section */
+
+.portfolio-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.portfolio-section img {
+    width: 300px;
+    padding: 15px;
+}
+
+.portfolio-list {
+    list-style: none;
+    padding: 15px;
+}
+
+.portfolio-list li {
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #bd3e3e;
+}
+
+/* Contact Form */
+
+.contact-form {
+    box-shadow: 0 0 10px #bd3e3e;
+    padding: 20;
+    margin-top: 30px;
+}
+
+/* Body Footer */
+
+footer {
+    text-align: center;
+    width: 100%;
+}
